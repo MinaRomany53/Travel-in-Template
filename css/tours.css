@@ -1,0 +1,29 @@
+.tours {
+  padding: 5rem 0 8rem 0;
+}
+
+/* Start Pagination Btns*/
+.pagination {
+  padding-bottom: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  color: var(--color-primary);
+  float: left;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 0.5rem;
+}
+/* End Pagination Btns */
