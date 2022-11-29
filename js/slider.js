@@ -1,8 +1,15 @@
 /* Start Slider */
 
-const slides = document.querySelectorAll(".slide");
-const sliderBtnRight = document.querySelector(".slider__btn--right");
-const sliderBtnLeft = document.querySelector(".slider__btn--left");
+let slides = document.querySelectorAll(".slide");
+if (slides.length === 0) slides = document.querySelectorAll(".slide-full");
+
+const sliderBtnRight =
+  document.querySelector(".slider__btn--right") ||
+  document.querySelector(".slider-full__btn--right");
+
+const sliderBtnLeft =
+  document.querySelector(".slider__btn--left") ||
+  document.querySelector(".slider-full__btn--left");
 
 let currSlide = 0;
 const maxSlides = slides.length;

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel in</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Travel in Website" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Mina Romany" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./imgs/icons8-location-50.png"
+      type="image/x-icon"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--Normailze helpful style sheet-->
+    <link rel="stylesheet" href="./Css/Normalize.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="./Css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header-->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="home.html"
+            ><i class="fa-solid fa-location-dot logo-icon"></i>Travel
+            <span>in</span></a
+          >
+        </div>
+        <button class="mobile_btn" id="mobile_btn" data-state="open">
+          <i class="fa-solid fa-bars icon"></i>
+        </button>
+        <ul class="nav hidden">
+          <li class="link-item">
+            <a href="tours.html" class="link">All Tours</a>
+          </li>
+          <li class="link-item open-mega__menu">
+            <span class="link">Best Tours</span>
+            <!--Mega Menu-->
+            <ul class="mega__menu">
+              <li class="mega__menu-item">
+                <a href="top-cheapest.html" class="mega__menu-link"
+                  >Top Cheapest</a
+                >
+              </li>
+              <li class="mega__menu-item">
+                <a href="top-rating.html" class="mega__menu-link">Top Rating</a>
+              </li>
+            </ul>
+          </li>
+          <li class="link-item">
+            <a href="#" class="link">Contact Us</a>
+          </li>
+          <li class="link-item">
+            <a href="login.html" class="link">Login</a>
+          </li>
+          <li class="link-item">
+            <a href="signup.html" class="btn sign-btn link">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header-->
+
+    <!-- Start Main -->
+    <main>
+      <!-- Start Tour Imgs Section -->
+      <section class="tour-imgs">
+        <div class="slider-full">
+          <div class="slide-full">
+            <img src="./imgs/image-1.jpg" alt="tour-image-1" />
+          </div>
+          <div class="slide-full">
+            <img src="./imgs/image-2.jpg" alt="tour-image-1" />
+          </div>
+          <div class="slide-full">
+            <img src="./imgs/image-3.jpg" alt="tour-image-1" />
+          </div>
+          <button class="slider-full__btn slider-full__btn--left">
+            <i class="fas fa-arrow-circle-left"></i>
+          </button>
+          <button class="slider-full__btn slider-full__btn--right">
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </section>
+      <!-- End Tour Imgs Section -->
+
+      <!-- Start Tour Info Section -->
+      <section class="tour-info">
+        <div class="container">
+          <h2 class="name">The City Wanderer</h2>
+          <div class="description">
+            <h3 class="heading">About <span>The City Wanderer</span> Tour</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Distinctio, iure? Hic saepe rem, ea officia quibusdam cum eligendi
+              sequi, veritatis consequatur accusamus corporis enim reprehenderit
+              omnis quia? Laboriosam nostrum dolorum sapiente obcaecati nobis
+              ducimus eum dolor ratione vero facere. Ullam!
+            </p>
+          </div>
+          <div class="facts">
+            <h3 class="heading">Quick Facts</h3>
+            <div class="facts__Content">
+              <div class="fact">
+                <i class="fa-solid fa-location-dot icon"></i>
+                <span>Las Vegas, USA</span>
+              </div>
+              <div class="fact">
+                <i class="fa-regular fa-calendar icon"></i>
+                <span> March 2021</span>
+              </div>
+              <div class="fact">
+                <i class="fa-regular fa-font-awesome icon"></i>
+                <span>3 steps</span>
+              </div>
+              <div class="fact">
+                <i class="fa-regular fa-user icon"></i> 20 people
+              </div>
+              <div class="fact">
+                <i class="fa-regular fa-clock"></i> <span>5</span> days
+              </div>
+              <div class="fact">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span>easy</span>
+              </div>
+              <div class="fact active-fact">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                $<span class="price">1197</span> per person
+              </div>
+            </div>
+          </div>
+          <div class="guides">
+            <h3 class="heading">Tour Guides</h3>
+            <div class="guides__content">
+              <div class="guide">
+                <img
+                  src="./imgs/guide-1.jpg"
+                  alt="guide-img"
+                  class="guide-img"
+                />
+                <span class="guide-name">John Doe</span>
+              </div>
+              <div class="guide">
+                <img
+                  src="./imgs/guide-2.jpg"
+                  alt="guide-img"
+                  class="guide-img"
+                />
+                <span class="guide-name">John Doe</span>
+              </div>
+              <div class="guide">
+                <img
+                  src="./imgs/guide-3.jpg"
+                  alt="guide-img"
+                  class="guide-img"
+                />
+                <span class="guide-name">Mare Doe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Tour Info Section -->
+
+      <!-- Start Tour Map Section -->
+      <section id="map" class="tour-map" data-locations=""></section>
+      <!-- End Tour Map Section -->
+
+      <!-- Start Tour Reviews Section -->
+      <section class="tour-reviews">
+        <div class="container">
+          <h3 class="heading">Reviews (<span>25</span> review)</h3>
+          <div class="reviews__content">
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star star-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="user__info">
+                <img src="./imgs/guide-2.jpg" alt="user-img" class="user-img" />
+                <span class="user-name">John Doe</span>
+              </div>
+              <p class="user__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                omnis numquam magnam neque sapiente, labore error aperiam cumque
+                excepturi laudantium.
+              </p>
+              <div class="stars">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Tour Reviews Section -->
+
+      <!-- Start Tour Booking Section -->
+      <section class="tour-booking">
+        <div class="container">
+          <h3 class="heading">What Are You Waiting For?</h3>
+          <p><span>5</span> days. Infinite memories. Make it yours today!</p>
+          <div class="card__btn">
+            <a href="tour.html" class="btn bookit-btn">Book Tour Now!</a>
+          </div>
+        </div>
+      </section>
+      <!-- End Tour Booking Section -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="row-1">
+            <h2>Imagine a place</h2>
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="row-2">
+            <ul class="links">
+              <li><a href="#">Top Rated Tours</a></li>
+              <li><a href="#">Become a guide</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="logo">
+            <a href="home.html"
+              ><i class="fa-solid fa-location-dot logo-icon"></i>Travel
+              <span>in</span></a
+            >
+          </div>
+          <div class="footer-btn">
+            <a href="signup.html" class="btn footer-sign-btn">Sign up</a>
+          </div>
+        </div>
+        <div class="signature">
+          Developed By
+          <a href="https://github.com/MinaRomany53" target="_blank"
+            >Mina Romany</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+
+    <div class="overlay"></div>
+
+    <!-- Script File -->
+    <script src="./JS/navbar.js"></script>
+    <script src="./JS/slider.js"></script>
+  </body>
+</html>

@@ -54,7 +54,7 @@ section {
 .section-heading {
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   margin-bottom: 4rem;
 }
@@ -62,7 +62,7 @@ section {
   font-size: 3rem;
 }
 .section-heading .svg {
-  width: 8rem;
+  width: 7rem;
   margin-right: 1rem;
 }
 
@@ -83,6 +83,7 @@ section {
   display: flex;
   flex-direction: column;
 }
+
 .card .body {
   text-decoration: none;
   color: var(--color-primary);
@@ -169,3 +170,9 @@ section {
   border-radius: 25rem;
 }
 /* End Cards */
+
+/* Big Cards */
+.cards.big {
+  grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+}
+/* Big Cards */
